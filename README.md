@@ -1,14 +1,12 @@
 ![Screenshot of Hyper](/_screenshots/hyper.png)
 ![Screenshot of VSCode](/_screenshots/vscode.png)
 
-Configuration for :
-
 * [Git](https://github.com/git/git)
 * [Zsh/Oh-my-zsh](http://ohmyz.sh/)
 * [Hyper](https://hyper.is/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-Files :
+## Files
 
 |        | File in this repo | Where to copy it                        |
 | ------ | ----------------- | --------------------------------------- |
