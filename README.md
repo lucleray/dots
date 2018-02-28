@@ -1,12 +1,28 @@
-## Vscode
+![Screenshot of Hyper](/_screenshots/hyper.png)
+![Screenshot of VSCode](/_screenshots/vscode.png)
 
-generate list of extensions :<br>
-`code --list-extensions > vscode/extensions`
+Configuration for :
 
-install all extensions :<br>
+* [Git](https://github.com/git/git)
+* [Zsh/Oh-my-zsh](http://ohmyz.sh/)
+* [Hyper](https://hyper.is/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+Files :
+
+|        | File in this repo | Where to copy it                        |
+| ------ | ----------------- | --------------------------------------- |
+| Git    | ~/.gitconfig      | ~                                       |
+| Git    | ~/.gitignore      | ~                                       |
+| Hyper  | ~/.hyper.js       | ~                                       |
+| Zsh    | ~/.zshrc          | ~                                       |
+| Zsh    | oh-my-zsh/\*      | ~/.oh-my-zsh                            |
+| VSCode | vscode/\*         | ~/Library/Application Support/Code/User |
+
+## Vscode Extensions
+
+Install all extensions :<br>
 `while read in; do code --install-extension "$in"; done < vscode/extensions`
 
-## Oh-my-zsh
-
-copy the theme file<br>
-`cp oh-my-zsh/blueblueblue.zsh-theme ~/.oh-my-zsh/themes`
+The list of extensions is generated with :<br>
+`code --list-extensions > vscode/extensions`
