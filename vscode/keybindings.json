@@ -1,0 +1,21 @@
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+  // personal settings
+  {
+    "key": "cmd+[Period]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "cmd+[Comma]",
+    "command": "workbench.action.terminal.new"
+  },
+  // remove conflicting settings
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  }
+]

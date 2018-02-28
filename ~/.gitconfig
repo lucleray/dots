@@ -1,0 +1,15 @@
+[user]
+    name = luc
+    email = luc.leray@gmail.com
+[core]
+    excludesfile = ~/.gitignore
+    # editor = code --wait
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE

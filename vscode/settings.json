@@ -1,0 +1,65 @@
+{
+  // font
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Menlo, Hack",
+  "editor.renderWhitespace": "boundary",
+  "editor.renderIndentGuides": true,
+  "editor.tabSize": 2,
+  // theme
+  "workbench.colorTheme": "City Lights",
+  "workbench.iconTheme": "file-icons-colourless",
+  // behaviour
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  // integrated terminal
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 16,
+  // emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // prettier
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  // standard
+  "standard.enable": true,
+  "standard.autoFixOnSave": true,
+  "javascript.validate.enable": false,
+  // markdown preview
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditorSelection": false,
+  // git
+  "git.autofetch": true,
+  // git lens
+  "gitlens.hovers.annotations.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.blame.heatmap.enabled": false,
+  "gitlens.blame.highlight.locations": ["line", "overview", "gutter"],
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.scopes": ["document"],
+  "gitlens.codeLens.enabled": false,
+  // disable telemetry
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "extensions.ignoreRecommendations": true,
+  "eslint.enable": false,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#2059f6",
+    "editor.wordHighlightBackground": "#2059f6",
+    "editor.wordHighlightStrongBackground": "#2059f6",
+    "editor.findMatchHighlightBackground": "#2059f6",
+    "editor.findMatchBackground": "#5d88fd",
+    "terminal.ansiBlue": "#2059f6",
+    "terminal.ansiGreen": "#00bb66",
+    "terminal.ansiRed": "#ff1c1c",
+    "terminalCursor.background": "#fff",
+    "terminalCursor.foreground": "#fff"
+  }
+}
