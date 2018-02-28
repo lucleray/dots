@@ -8,6 +8,18 @@
   // theme
   "workbench.colorTheme": "City Lights",
   "workbench.iconTheme": "file-icons-colourless",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#2059f6",
+    "editor.wordHighlightBackground": "#2059f6",
+    "editor.wordHighlightStrongBackground": "#2059f6",
+    "editor.findMatchHighlightBackground": "#2059f6",
+    "editor.findMatchBackground": "#5d88fd",
+    "terminal.ansiBlue": "#2059f6",
+    "terminal.ansiGreen": "#00bb66",
+    "terminal.ansiRed": "#ff1c1c",
+    "terminalCursor.background": "#fff",
+    "terminalCursor.foreground": "#fff"
+  },
   // behaviour
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "none",
@@ -31,6 +43,8 @@
   "standard.enable": true,
   "standard.autoFixOnSave": true,
   "javascript.validate.enable": false,
+  // eslint,
+  "eslint.enable": false,
   // markdown preview
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditorSelection": false,
@@ -48,18 +62,5 @@
   // disable telemetry
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "extensions.ignoreRecommendations": true,
-  "eslint.enable": false,
-  "workbench.colorCustomizations": {
-    "editor.selectionBackground": "#2059f6",
-    "editor.wordHighlightBackground": "#2059f6",
-    "editor.wordHighlightStrongBackground": "#2059f6",
-    "editor.findMatchHighlightBackground": "#2059f6",
-    "editor.findMatchBackground": "#5d88fd",
-    "terminal.ansiBlue": "#2059f6",
-    "terminal.ansiGreen": "#00bb66",
-    "terminal.ansiRed": "#ff1c1c",
-    "terminalCursor.background": "#fff",
-    "terminalCursor.foreground": "#fff"
-  }
+  "extensions.ignoreRecommendations": true
 }
